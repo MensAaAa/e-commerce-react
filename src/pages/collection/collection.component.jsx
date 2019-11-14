@@ -8,7 +8,6 @@ import "./collection.styles.scss";
 
 const CollectionPage = ({ collection }) => (
   <div className="collection-page">
-    {console.log(collection)}
     <h2 className="title">{collection.title} page</h2>
     <div className="items">
       {collection.items.map(item => (
